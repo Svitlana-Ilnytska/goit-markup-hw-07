@@ -1,0 +1,54 @@
+.section-secondary {
+    background-color: var(--background-button-color);
+  }
+  .employee-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .employee-card__list {
+    width: 270px;
+    height: 428px;
+    background-color: var(--hero-text-color);
+    margin-right: 30px;
+    /* border: 1px solid var(--primary-background-color); */
+    border-radius: 0px 0px 4px 4px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  .employee-card__list:nth-child(4) {
+    margin-right: 0;
+  }
+  
+  
+  .discription {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    fill: currentColor;
+  }
+  
+  .discription__coworkers {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: var(--healines-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+  }
+  
+  
+  
+  .discription__specialty {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    margin-bottom: 16px;
+  }
+  

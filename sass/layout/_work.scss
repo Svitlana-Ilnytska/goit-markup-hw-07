@@ -1,0 +1,59 @@
+
+.main-work {
+    padding-top: 0;
+  }
+  
+  .section-work {
+    margin-bottom: 50px;
+    color: var(--healines-text-color);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+  }
+  
+  .examples {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .examples__icons {
+    margin-right: 30px;
+  }
+  
+  .examples__icons:last-child {
+    margin: 0;
+  }
+  
+  .icons-thumb {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icons-thumb__title {
+    position: absolute;
+    background-color: rgba(47, 48, 58, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    bottom: 0;
+    width: 370px;
+    height: 70px;
+  }
+  
+  
+  .icons-thumb__text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color:var(--hero-text-color);
+  }
+  
+  
