@@ -43,14 +43,14 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .button-portfolio__item:hover,
-  .button-portfolio__item:focus {
+  .button-portfolio__item{
+    &:hover,
+    &:focus {
     color: var(--hero-text-color);
     background-color: var(--accent-color);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-      0px 2px 2px rgba(0, 0, 0, 0.12);
+    box-shadow: var(--portfolio-button-shadow);
   }
-  
+  }
 .footer-form__btn {
     display: flex;
     align-items: center;
@@ -75,10 +75,12 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .footer-form__btn:hover,
-  .footer-form__btn:focus {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  .footer-form__btn{
+    &:hover,
+    &:focus {
+    box-shadow: var(--footer-button-shadow);
   }
+}
   .footer-form__icon {
     margin-left: 10px;
     fill: var(--hero-text-color);

@@ -3,23 +3,13 @@
     padding-top: 0;
   }
   
-  .section-work {
-    margin-bottom: 50px;
-    color: var(--healines-text-color);
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-  }
-  
   .examples {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .examples__icons {
+    justify-content: center; 
+     &__icons {
     margin-right: 30px;
+  }
   }
   
   .examples__icons:last-child {
@@ -31,9 +21,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .icons-thumb__title {
+    &__title {
     position: absolute;
     background-color: rgba(47, 48, 58, 0.8);
     display: flex;
@@ -44,9 +32,7 @@
     width: 370px;
     height: 70px;
   }
-  
-  
-  .icons-thumb__text {
+    &__text {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -55,5 +41,5 @@
   text-transform: uppercase;
   color:var(--hero-text-color);
   }
-  
+  }
   

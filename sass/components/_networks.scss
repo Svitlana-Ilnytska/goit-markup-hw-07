@@ -25,14 +25,14 @@
     height: 20px;
   }
   
-  .list-networks__link:hover,
-  .list-networks__link:focus,
-  .list-networks__footer-link:hover,
-  .list-networks__footer-link:focus {
+  .list-networks__link, .list-networks__footer-link {
+    &:hover,
+    &:focus {
     background-color: var(--color-hover-icons);
     fill: var(--hero-text-color);
   }
-  
+  }
+
   .list-networks__footer {
     margin-right: 10px;
   }
