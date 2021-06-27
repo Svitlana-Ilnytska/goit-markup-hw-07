@@ -9,8 +9,10 @@
   }
   }
     
-  .future-list__item:last-child {
-    margin-right: 0;
+  .future-list__item{
+        &:last-child {
+        margin-right: 0;
+  }
   }
   
   .future-list__technic {

@@ -30,10 +30,12 @@
   }
   }
   
-  .site-nav__item:last-child {
+  .site-nav__item{
+    &:last-child {
     margin: 0;
   }
-  
+  }
+
   .site-nav__communication {
     display: block;
     margin-right: 30px;
@@ -49,7 +51,6 @@
     margin: 0;
     }
 
-    
   .site-nav__link,
   .site-nav__contact {
     transition-property: color;

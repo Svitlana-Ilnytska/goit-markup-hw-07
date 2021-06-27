@@ -32,10 +32,11 @@
     }
   }
   
-  .company__list:last-child {
+  .company__list{
+    &:last-child {
     margin-right: 0;
   }
-  
+  }
   
   .company__link {
       &:hover,

@@ -86,7 +86,6 @@
     margin-bottom: 12px;
   }
   
-
   .modal-label__name {
     display: flex;
     justify-content: flex-start;
@@ -124,10 +123,12 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .modal-label__list:focus {
-    border-color: var(--color-hover-icons);
+  .modal-label__list{
+      &:focus {
+      border-color: var(--color-hover-icons);
   }
-  
+  }
+
   .modal-label__list:focus + .modal-label__icon {
     fill: var(--color-hover-icons);
   }
@@ -148,10 +149,12 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .modal-label__coment:focus {
-    border-color: var(--color-hover-icons);
+  .modal-label__coment{
+      &:focus {
+      border-color: var(--color-hover-icons);
   }
-  
+  }
+
   .modal-label__coment::placeholder {
     font-style: normal;
     font-weight: normal;
